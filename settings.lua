@@ -6,9 +6,9 @@ data:extend {
 		type = "int-setting",
 		name = tb_defines.names.settings.power_multi,
 		setting_type = "startup",
-		default_value = 150,
+		default_value = 17,
 		minimum_value = 1,
-		maximum_value = 254,
-		order = "b-a"
+		maximum_value = 50,
+		order = "aaa"
 	}
 }
