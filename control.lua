@@ -1,1 +1,1 @@
-require("defines")
+require("scripts/scripts")

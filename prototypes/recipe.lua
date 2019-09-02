@@ -26,6 +26,23 @@ data:extend({
     {"advanced-circuit", 20}
   },
   result = tb_defines.names.turret
+},
+{
+  type = "item",
+  name = "blub",
+  icon = "__base__/graphics/icons/mip/iron-ore.png",
+  icon_size = 32,
+  stack_size = 50,
+},
+{
+  type = "recipe",
+  name = "blub-recipe",
+  enabled = true,
+  energy_required = 1,
+  ingredients = {
+    {"iron-plate", 1}
+  },
+  result = "blub"
 }
 
 })

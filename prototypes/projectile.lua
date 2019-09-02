@@ -78,6 +78,11 @@ data:extend({
         {
           type = "show-explosion-on-chart",
           scale = 8/32
+        },
+        {
+          type = "destroy-cliffs",
+          radius = 40.0,
+          explosion = "explosion"
         }
       }
     }
