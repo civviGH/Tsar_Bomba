@@ -8,8 +8,8 @@ tint = {r=0.5, g=0.5, b=0, a=1},
 icon_size = 32,
 ammo_type =
 {
-	  --category = tb_defines.names.ammo_category,
-	  category = "artillery-shell",
+	  category = tb_defines.names.ammo_category,
+	  --category = "artillery-shell",
 	  target_type = "position",
 	  action =
 	{
