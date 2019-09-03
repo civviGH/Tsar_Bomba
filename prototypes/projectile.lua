@@ -81,8 +81,28 @@ data:extend({
         },
         {
           type = "destroy-cliffs",
-          radius = 40.0,
+          radius = 20.0,
           explosion = "explosion"
+        },
+        {
+          type = "nested-result",
+          action =
+          {
+            type = "area",
+            target_entities = false,
+            trigger_from_target = true,
+            repeat_count = 1000,
+            radius = 30,
+            action_delivery =
+            {
+              type = "instant",
+              target_effects =
+              {
+                type = "create-fire",
+                entity_name = "fire-flame"
+              }
+            }
+          }
         }
       }
     }

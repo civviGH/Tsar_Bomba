@@ -13,8 +13,8 @@ data:extend({
       width = 324,
       height = 416,
       frame_count = 36,
-      shift = util.by_pixel(0, -(48*5)),
-      scale = 5,
+      shift = util.by_pixel(0, -(48*10)),
+      scale = 10,
       stripes =
       {
         {

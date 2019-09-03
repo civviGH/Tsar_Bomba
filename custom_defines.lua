@@ -9,6 +9,8 @@ tb_defines.names.tsar_bomba_explosion = "tsar-bomb-explosion"
 tb_defines.names.turret = "nuclear-warhead-artillery-turret"
 tb_defines.names.turret_entity = "nuclear-warhead-artillery-turret-entity"
 tb_defines.names.turret_entity_top = "nuclear-warhead-artillery-turret-entity-top"
+tb_defines.names.selection_tool = "tsar-bomb-selection-tool"
+tb_defines.names.custom_input = "get-tsar-bomb-selection-tool"
 
 tb_defines.names.settings = {
 	power_multi = "tsar-bomba-power-multiplier"
